@@ -17,12 +17,9 @@ libraryDependencies ++= Seq(
 
 addSbtPlugin("com.typesafe.sbt" % "sbt-js-engine" % "1.1.3")
 
-publishMavenStyle := false
+licenses += ("Apache-2.0", url("http://www.apache.org/licenses/LICENSE-2.0.html"))
 
-publishTo := {
-  if (isSnapshot.value) Some(Classpaths.sbtPluginSnapshots)
-  else Some(Classpaths.sbtPluginReleases)
-}
+bintrayOrganization in bintray := None
 
 scriptedSettings
 

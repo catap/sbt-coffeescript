@@ -5,9 +5,14 @@ sbt-coffeescript
 
 An SBT plugin to compile [CoffeeScript](http://coffeescript.org/) sources to JavaScript.
 
+**This is unofficial fork with update dependencies libraries.**
+
 To use this plugin use the addSbtPlugin command within your project's `plugins.sbt` file:
 
-    addSbtPlugin("com.typesafe.sbt" % "sbt-coffeescript" % "1.0.0")
+    resolvers += Resolver.url("sbt-catap-plugin-releases",
+      url("http://dl.bintray.com/catap/sbt-plugins/"))(Resolver.ivyStylePatterns)
+
+    addSbtPlugin("com.typesafe.sbt" % "sbt-coffeescript" % "1.0.1")
 
 Your project's build file also needs to enable sbt-web plugins. For example with build.sbt:
 
