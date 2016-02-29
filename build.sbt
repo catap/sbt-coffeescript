@@ -6,7 +6,7 @@ name := "sbt-coffeescript"
 
 version := "1.0.1-SNAPSHOT"
 
-scalaVersion := "2.10.4"
+scalaVersion := "2.10.6"
 
 scalacOptions += "-feature"
 
