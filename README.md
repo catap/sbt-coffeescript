@@ -1,7 +1,7 @@
 sbt-coffeescript
 ================
 
-[![Build Status](https://api.travis-ci.org/sbt/sbt-coffeescript.png?branch=master)](https://travis-ci.org/sbt/sbt-coffeescript)
+[![Build Status](https://travis-ci.org/catap/sbt-coffeescript.svg?branch=master)](https://travis-ci.org/catap/sbt-coffeescript)
 
 An SBT plugin to compile [CoffeeScript](http://coffeescript.org/) sources to JavaScript.
 
